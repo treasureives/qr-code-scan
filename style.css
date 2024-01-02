@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: Arial;
+}
+
+.generate-qr {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.qr-code {
+    text-decoration: none;
+    color: blue;
+    text-decoration: underline;
+}
+
+.container {
+    width: 315px;
+    height: 480px;
+    margin: 1.5rem auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.container .top-section {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.top-section span {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.container .bottom-section h2{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin: 15px;
+}
+
+.container .bottom-section p {
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    margin: 15px;
+}
+
+.hidden {
+    display: none;
+}
